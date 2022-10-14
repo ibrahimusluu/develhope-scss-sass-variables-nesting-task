@@ -1,0 +1,33 @@
+$scss-red: red;
+$scss-blue: blue;
+$scss-green: green;
+
+section {
+    border: 1px solid $scss-red;
+    padding: 20px;
+    div {
+        &:first-child {
+            text-align: center;
+            h1 {
+                margin: 0;
+                color: $scss-green;
+                text-decoration: underline;
+                text-decoration-color: $scss-blue;
+            }
+        }
+        &.paragraphs {
+            display: flex;
+            text-align: center;
+            p {
+                border: 1px solid $scss-green;
+                padding: 35px;
+                &:nth-child(odd) {
+                    color: $scss-blue;
+                }
+                &:nth-child(even) {
+                    color: $scss-red;
+                }
+            }
+        }
+    }
+}

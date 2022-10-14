@@ -1,0 +1,29 @@
+section {
+  border: 1px solid red;
+  padding: 20px;
+}
+section div:first-child {
+  text-align: center;
+}
+section div:first-child h1 {
+  margin: 0;
+  color: green;
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+section div.paragraphs {
+  display: flex;
+  text-align: center;
+}
+section div.paragraphs p {
+  border: 1px solid green;
+  padding: 35px;
+}
+section div.paragraphs p:nth-child(odd) {
+  color: blue;
+}
+section div.paragraphs p:nth-child(even) {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
